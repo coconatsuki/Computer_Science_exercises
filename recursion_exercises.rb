@@ -9,6 +9,7 @@ end
 
 #p pairs(10)
 
+#######################################################
 def sum_pairs(n)
   return 0 if n == 0
   sum = sum_pairs(n-1)

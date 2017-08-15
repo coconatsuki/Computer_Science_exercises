@@ -74,7 +74,7 @@ class LinkedList
     p data_list
   end
 
-  def each (&block)
+  def each(&block)
     each_aux(data_list, block).reverse
   end
 
