@@ -98,5 +98,5 @@ end
 
 builder = Builder.new
 builder.build_tree([1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324])
-builder.breadth_first_search(4)
-builder.depth_first_search_recursive(4)
+builder.breadth_first_search(23)
+builder.depth_first_search_recursive(67)
